@@ -2,5 +2,6 @@ package main
 
 func main() {
 	// pingPong()
-	selectChannels()
+	// selectChannels()
+	timeouts()
 }
