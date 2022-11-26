@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 // the total execution time here is only ~3 seconds- the longest wait duration for our
 // functions since this is all simulatenous
 // all 3 sleep events are executed concurrently
-func selectChannels() {
+func SelectChannels() {
 	c1, c2 := make(chan string), make(chan string)
 	c3 := make(chan string)
 

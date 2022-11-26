@@ -1,7 +1,10 @@
 package main
 
+import "practice/concepts"
+
 func main() {
 	// pingPong()
 	// selectChannels()
-	timeouts()
+	// timeouts()
+	concepts.ClosingChannels()
 }

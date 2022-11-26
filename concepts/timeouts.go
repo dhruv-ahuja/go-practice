@@ -1,4 +1,4 @@
-package main
+package concepts
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 // time.After sends after awaiting the execution of a goroutine for the defined time
 // this enables us to perform timeout operations, useful for external resources or time-bound
 // operations
-func timeouts() {
+func Timeouts() {
 	c1, c2 := make(chan string, 1), make(chan string, 1)
 
 	go func() {
